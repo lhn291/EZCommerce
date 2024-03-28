@@ -21,7 +21,7 @@ namespace EZCommerce.Application.Products.Handlers.CommandHandlers
             try
             {
                 var existingProduct = await _productRepository.GetByIdAsync(request.Id);
-                if (existingProduct != null)
+                if (existingProduct == null)
                 {
                     errors.Add(new Error(ErrorCode.NotFound, $"Product with ID {request.Id} not found."));
                 }
