@@ -15,8 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EZCommerce.Common", "EZComm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EZCommerce.Application", "EZCommerce.Application\EZCommerce.Application.csproj", "{817DE9B0-ED24-4C7B-9A49-CFD252B8FE85}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{710A707E-42D2-4F37-9486-B35837546736}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,13 +48,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{917DA164-5188-4498-9F71-3395EB06B83A} = {710A707E-42D2-4F37-9486-B35837546736}
-		{D8766350-B883-4521-B5DC-11445910F650} = {710A707E-42D2-4F37-9486-B35837546736}
-		{727D1BDF-9840-4C59-BB5F-F3044CD82630} = {710A707E-42D2-4F37-9486-B35837546736}
-		{8DA00F58-EEF9-4CED-80DB-277B4E1E8BE5} = {710A707E-42D2-4F37-9486-B35837546736}
-		{817DE9B0-ED24-4C7B-9A49-CFD252B8FE85} = {710A707E-42D2-4F37-9486-B35837546736}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C1FF0583-5D5A-425B-8937-CCE178A963F5}
